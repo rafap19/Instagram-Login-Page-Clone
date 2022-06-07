@@ -18,18 +18,16 @@ button{
 }
 
 .insta-login{
-    width: 44%;
-    height: 60vh;
+    width: 50%; 
+    height:385px;
 }
 
 .insta-input{
     height: 2.3rem;
-    width: 16rem;
+    width: 85%;
     outline-color: #00000050;
 
 }
-
-
 
 
 .radius{
@@ -46,7 +44,7 @@ button{
 
 .insta-input-btn {
     height: 2rem;
-    width: 16rem;
+    width: 87%;
     background-color: #0095F6;
     color: white;
     font-weight: 600;
@@ -116,58 +114,63 @@ button{
 }
 
 
-@media(max-width:425px){
+@media(max-width:450px){
 
 
     .container{
         width: 100%;
     }
     
-   
     .insta-cellphone{
         display: none;
     }
 
     .insta-login{
         width: 100%;
+        max-width: 450px;
     }
 
     .insta-border{
-        border: none;
+        border:none;
     }
+
       
 }
 
-@media(max-width:715px) and (orientation:landscape){
+
+
+
+@media(min-width:451px) and (max-width:875px){
+
+
+    .container{
+        width: 100%;
+    }
+    
     .insta-cellphone{
         display: none;
     }
 
     .insta-login{
-        width: 100%;
-        height: 90vh;
+        width: 70%;
+        max-width: 450px;
+        
     }
-    
 
     .insta-border{
-        border: 1px solid #00000025;
+        border: 1px solid #00000030;
     }
-  
-}
-
-@media(max-width:667px) and (orientation:landscape){
-
-    .insta-login{
-        height: 102vh;
-    }
-}
-
-@media(max-width:580px)and (orientation:landscape){
     
-    .insta-login{
-        height: 120vh;
-    }
+ 
 }
+
+
+
+
+
+
+
+
 
 
 

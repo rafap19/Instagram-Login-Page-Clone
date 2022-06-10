@@ -20,6 +20,7 @@ button{
 .insta-login{
     width: 50%; 
     height:385px;
+    margin-top: 2.5%;
 }
 
 .insta-input{
@@ -114,7 +115,8 @@ button{
 }
 
 
-@media(max-width:450px){
+
+@media(max-width:719px){
 
 
     .container{
@@ -152,8 +154,7 @@ button{
 
 
 
-
-@media(min-width:451px) and (max-width:875px){
+@media(min-width:720px) and (max-width:875px){
 
 
     .container{
@@ -182,6 +183,10 @@ button{
     .app-obtenha-font{
         visibility: hidden;
     }
+
+    
+
+    
  
  
 }

@@ -110,18 +110,13 @@ button{
     border: 1px solid #00000030
 }
 
-.input-insta-border{
-    border: 1px solid #00000030
-}
-
 
 
 @media(max-width:719px){
 
 
-    .container{
+    .container,.insta-login{
         width: 100%;
-        overflow: hidden;
     }
     
     .insta-cellphone{
@@ -129,7 +124,6 @@ button{
     }
 
     .insta-login{
-        width: 100%;
         max-width: 450px;
     }
 
@@ -151,7 +145,6 @@ button{
 
       
 }
-
 
 
 
@@ -185,11 +178,6 @@ button{
         visibility: hidden;
     }
 
-    
-
-    
- 
- 
 }
 
 

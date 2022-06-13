@@ -110,6 +110,11 @@ button{
     border: 1px solid #00000030
 }
 
+.insta-border1{
+    border: 1px solid #00000030
+}
+
+
 
 
 @media(max-width:719px){
@@ -125,11 +130,9 @@ button{
 
     .insta-login{
         max-width: 450px;
+        border: none;
     }
 
-    .insta-border{
-        border:none;
-    }
 
     .app-img{
         visibility: hidden;
@@ -139,11 +142,11 @@ button{
         visibility: hidden;
     }
 
-    .criar-conta{
-        border-top: 1px solid #0000001b;
+    .insta-border1{
+        border: none;
     }
+    
 
-      
 }
 
 
@@ -177,6 +180,8 @@ button{
     .app-obtenha-font{
         visibility: hidden;
     }
+
+  
 
 }
 
